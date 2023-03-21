@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h2>HTML Forms</h2>
+    <!-- if we write a html address of some other page in action of form then when we click on submit button then it will redirect
+        us to that particular page  -->
+    <!-- <form action="temp.html" method="post">  -->
+
+        <!-- This mail to option will open you email and in the sender email it will have that email and all the information written
+            in the form will be typed there because of method set as post -->
+    <form action="mailto:abhishekaps00@gmail.com" method="post" enctype="text/plain"> 
+        <label for="">First Name</label>
+        <input type="text" name="First_Name" id=""> <br> <br>
+
+        <label for="">Last Name</label>
+        <input type="text" name="Last_name" id=""> <br><br>
+
+        <label for="">E-mail id</label>
+        <input type="email" name="Your_Email" id=""><br><br>
+
+        <label for="">Aadhar Card</label>
+        <input type="file" name="" id=""><br>
+
+        <p>Gender</p>
+        <label for="male">Male</label>
+        <input type="checkbox" name="" id="male">
+        <label for="female">Female</label>
+        <input type="checkbox" name="" id="female"> <br> <br>
+
+        <label for="">Date of Birth</label>
+        <input type="date" name="DOB" id=""> <br><br>
+        
+        <label for="">Interest in Full Stack</label>
+        <input type="range" name="" id=""> <br><br>
+        
+        <label for="">Your Message</label><br>
+        <textarea name="Message" id="" cols="35" rows="10" placeholder="Type your comment"></textarea> <br> <br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
